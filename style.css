@@ -1,0 +1,189 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*------------------------------------------------------------------------------------*/
+/*HTML*/
+html {
+			min-width: 1000px;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for Links*/
+.nav {
+	padding-bottom: 10px;
+	width:428px;
+	position:relative;
+	left:35%;
+}
+
+ .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #196dff;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: inline-block;
+    font-size: 1em;
+    color: black;
+    text-align: center; 
+    padding: 15px 15px;
+}
+
+.nav li a:hover {
+    background-color: #290f8a;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for all three webpages*/
+
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul{
+	color: #6666ff;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for Images and videos*/
+#img {
+    border-radius: 40px;
+	margin-left: 40px;
+
+}
+iframe{
+	float: left;
+	margin-left: 40px;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for map*/
+#map{
+	height: 500px;
+	width: 100%;
+	border-style: solid;
+    border-width: medium;
+
+	}
+/*------------------------------------------------------------------------------------*/
+/*CSS for image slider*/
+#button1{
+	float: left;
+}
+#button{
+	float: left;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for Images*/
+
+#image1{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image2{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image3{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image4{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image5{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image6{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image7{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+#image8{
+	width: 95%;
+	height: 500px;
+	float: left;
+	
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for you*/
+#you{
+	float: right;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for H1*/
+h1 {
+    font-size: 250%;
+	border-style: solid;
+    border-top: thick dotted #196dee;
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for H2*/
+h2 {
+    font-size: 150%;
+	border-style: solid;
+    border-top: thick dotted #196dee;
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+
+
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for p*/
+p {
+    font-size: 100%;
+    font-family: "Times New Roman", Times, serif;
+	color: #6666ff;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for maap*/
+#maap{
+    font-size: 500%;
+	text-align: center;
+
+}
+/*------------------------------------------------------------------------------------*/

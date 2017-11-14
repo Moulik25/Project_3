@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>7even Earth like Planets</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+		<body>
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">MY_RESUME</a></li>
+					<li><a href="superhero.html">SUPER_HEROS</a></li>
+					<li><a href="earth_cousin.html">EARTH_COUSINS</a></li>
+				</ul>
+			</nav>
+			<h1>Earth Cousins</h1>
+			<p>Have you ever thought of life after the Earth? Will we be able to survive after that? If yes then where? Where do you think we can go? What is the plan B of each and every person present on Earth? So, here I present you 7 most favourable planets where we can survive.</p>
+			<div id = "slider">
+			<figure>
+			<button id = "button1" class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+			<img id = "image1" class="mySlides" src="kepler186f.jpg" alt="Image">
+			<img id = "image2" class="mySlides" src="kepler452b.jpg" alt="Image">
+			<img id = "image3" class="mySlides" src="kepler22b.jpg"  alt="Image">
+			<img id = "image4" class="mySlides" src="kapteynb.jpg"  alt="Image">
+			<img id = "image5" class="mySlides" src="gliese581d.jpg"  alt="Image">
+			<img id = "image6" class="mySlides" src="wolf1061c.jpg"  alt="Image">
+			<img id = "image7" class="mySlides" src="taucetie.jpg"  alt="Image">
+			
+			<button id = "button2" class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+			</figure>
+			</div>
+			<script>
+
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+					showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+						if (n > x.length) {slideIndex = 1} 
+						if (n < 1) {slideIndex = x.length} ;
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none"; 
+					}
+						x[slideIndex-1].style.display = "block"; 
+				}
+			</script>
+		</body>
+	
+</html>

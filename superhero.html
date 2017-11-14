@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Superheros</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+		<body>
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">MY_RESUME</a></li>
+					<li><a href="superhero.html">SUPER_HEROS</a></li>
+					<li><a href="earth_cousin.html">EARTH_COUSINS</a></li>
+				</ul>
+			</nav>
+			<h1>My Favorite Superheros</h1>
+			<div id = "slider">
+			<figure>
+			<button id = "button1" class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+				<img id = "image1" class="mySlides" src="superman.jpg" alt="Image">
+				<img id = "image2" class="mySlides" src="batman.jpg" alt="Image">
+				<img id = "image3" class="mySlides" src="thor.jpg" alt="Image">
+				<img id = "image4" class="mySlides" src="hulk.jpg" alt="Image">
+				<img id = "image5" class="mySlides" src="iron_Man.jpg" alt="Image">
+				<img id = "image6" class="mySlides" src="captain_america.jpg" alt="Image">
+				<img id = "image7" class="mySlides" src="loki.jpg" alt="Image">
+				<img id = "image8" class="mySlides" src="wolverine.jpg" alt="Image">	
+			
+			<button id = "button2" class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+			</figure>
+			</div>
+			<script>
+
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+					showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+						if (n > x.length) {slideIndex = 1} 
+						if (n < 1) {slideIndex = x.length} ;
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none"; 
+					}
+						x[slideIndex-1].style.display = "block"; 
+				}
+			</script>
+			<div id = "maap">
+				<p>GOOGLE MAP</p>
+			</div>
+			<div id = "map">
+
+			<script>
+			function initMap(){
+				var Gangotri = {lat: 30.994695, lng: 78.939840};
+				var Yamunotri = {lat: 31.013986, lng: 78.459955};
+				var Badrinath = {lat: 30.743309, lng: 79.493763};
+				var Kedarnath = {lat: 30.734627, lng: 79.066894};
+				
+				var map = new google.maps.Map(document.getElementById("map"),{
+				zoom: 8,
+				center: Gangotri
+				});
+				var marker = new google.maps.Marker({
+				position: Gangotri,
+				map: map
+				});
+				var marker = new google.maps.Marker({
+				position: Yamunotri,
+				map: map
+				});
+				var marker = new google.maps.Marker({
+				position: Badrinath,
+				map: map
+				});
+				var marker = new google.maps.Marker({
+				position: Kedarnath,
+				map: map
+				});
+			}
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALyv4HeKJcrL8M1Cj4XOKKZ5hu8akOZ8c&callback=initMap">
+			</script>
+			</div>			
+			</body>
+	
+</html>

@@ -92,8 +92,8 @@ iframe{
 #button1{
 	float: left;
 }
-#button{
-	float: left;
+#button2{
+	float: right;
 }
 /*------------------------------------------------------------------------------------*/
 /*CSS for Images*/
@@ -101,49 +101,49 @@ iframe{
 #image1{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image2{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image3{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image4{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image5{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image6{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image7{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 #image8{
 	width: 95%;
 	height: 500px;
-	float: left;
+	float: center;
 	
 }
 /*------------------------------------------------------------------------------------*/

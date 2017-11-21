@@ -153,22 +153,25 @@ iframe{
 }
 /*------------------------------------------------------------------------------------*/
 /*CSS for H1*/
-h1 {
-    font-size: 250%;
+#H1 {
+    	font-size: 250%;
 	border-style: solid;
-    border-top: thick dotted #196dee;
+    	border-top: thick dotted #196dee;
 	font-family: "Times New Roman", Times, serif;
 	color: #000033;
+	text-align: center;
 
 }
 /*------------------------------------------------------------------------------------*/
 /*CSS for H2*/
 h2 {
-    font-size: 150%;
+    	font-size: 150%;
 	border-style: solid;
-    border-top: thick dotted #196dee;
+   	border-top: thick dotted #196dee;
 	font-family: "Times New Roman", Times, serif;
 	color: #000033;
+	text-align: center;
+
 
 
 }
